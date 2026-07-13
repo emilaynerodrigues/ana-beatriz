@@ -1,58 +1,58 @@
-    const frases=[
+const frases=[
 
-    "Ana, você tem sido meu segundo girassol.",
+"Ana, você tem sido meu segundo girassol.",
 
-    "Todos os nossos momentos, mesmo os mais breves, me fazem sentir paz.",
+"Todos os nossos momentos, mesmo os mais breves, me fazem sentir paz.",
 
-    "Todos os dias, assim como o girassol procura a luz...",
+"Todos os dias, assim como o girassol procura a luz...",
 
-    "... meus pensamentos sempre encontram você.",
+"... meus pensamentos sempre procuram você.",
 
-    "Fico pensando se você me daria o prazer de estar ao seu lado...",
+"Mesmo nas diferenças, você tem sido minha luz, minha alegria...",
 
+"É você quem tenho escolhido.",
 
-    "... todos os dias de hoje em diante.",
+"Você poderia ser minha?"
 
-    "Porque mesmo na escuridão, você tem sido minha luz.",
+];
 
-    "Posso ser a sua?"
+const texto=document.getElementById("texto");
 
-    ];
+let frase=0;
+let letra=0;
 
-    const texto=document.getElementById("texto");
+function escrever(){
 
-    let frase=0;
+    if(letra < frases[frase].length){
 
-    let letra=0;
+        texto.innerHTML += frases[frase][letra];
 
-    function escrever(){
+        letra++;
 
-    if(letra<frases[frase].length){
-
-    texto.innerHTML+=frases[frase][letra];
-
-    letra++;
-
-    setTimeout(escrever,70);
+        setTimeout(escrever,70);
 
     }
 
     else{
 
-    setTimeout(()=>{
+        // se chegou na última frase, para aqui
+        if(frase === frases.length - 1){
+            return;
+        }
 
-    texto.innerHTML="";
+        setTimeout(()=>{
 
-    frase=(frase+1)%frases.length;
+            texto.innerHTML="";
 
-    letra=0;
+            frase++;
+            letra=0;
 
-    escrever();
+            escrever();
 
-    },3000);
+        },3000);
 
     }
 
-    }
+}
 
-    escrever();
+escrever();
