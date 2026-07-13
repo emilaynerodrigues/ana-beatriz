@@ -348,7 +348,7 @@ main{
 
     position:absolute;
 
-    bottom:35px;
+    bottom:25px;
 
     width:100%;
     height: 100px;
@@ -389,7 +389,7 @@ main{
 .logo{
     position:absolute;
 
-    bottom:5px;
+    bottom:1px;
     width:100%;
     display:flex;
     justify-content:center;
