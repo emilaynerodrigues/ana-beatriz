@@ -1,16 +1,21 @@
 const frases=[
 
-"Oi Ana ❤️",
+"Ana, você tem sido meu segundo girassol.",
 
-"Fiz este pequeno jardim especialmente para você.",
+"Todos os nossos momentos, mesmo os mais breves, me fazem sentir paz.",
 
-"Cada linha deste código foi escrita pensando em você.",
+"Todos os dias, assim como o girassol procura a luz...",
 
-"Assim como o girassol procura a luz...",
+"... meus pensamentos sempre encontram você.",
 
-"...meus pensamentos sempre encontram você.",
+"Fico pensando se você me daria o prazer de estar ao seu lado...",
 
-"Espero que este pequeno presente consiga fazer você sorrir 🌻"
+
+"... todos os dias de hoje em diante.",
+
+"Porque mesmo na escuridão, você tem sido minha luz.",
+
+"Posso ser a sua?"
 
 ];
 
@@ -51,35 +56,3 @@ escrever();
 }
 
 escrever();
-
-const hearts=document.getElementById("hearts");
-
-function heart(){
-
-const h=document.createElement("div");
-
-h.className="heart";
-
-h.innerHTML="💖";
-
-h.style.left=Math.random()*500+"px";
-
-h.style.top=100+Math.random()*250+"px";
-
-h.style.fontSize=20+Math.random()*20+"px";
-
-hearts.appendChild(h);
-
-setTimeout(()=>{
-
-h.remove();
-
-},6000);
-
-}
-
-setTimeout(()=>{
-
-setInterval(heart,250);
-
-},4000);
