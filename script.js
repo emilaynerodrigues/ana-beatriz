@@ -1,18 +1,14 @@
 const frases=[
 
-"Ana, você tem sido meu segundo girassol.",
+"Ana, você é minha saudade.",
 
-"Todos os nossos momentos, mesmo os mais breves, me fazem sentir paz.",
+"Todos os dias sinto a falta da sua ausência.",
 
-"Todos os dias, assim como o girassol procura a luz...",
+"Meus pensamentos não te esquecem.",
 
-"... meus pensamentos sempre procuram você.",
+"Estou te esperando...",
 
-"Mesmo nas diferenças, você tem sido minha luz, minha alegria...",
-
-"É você quem tenho escolhido.",
-
-"Você poderia ser minha?"
+"Por favor, volta."
 
 ];
 
