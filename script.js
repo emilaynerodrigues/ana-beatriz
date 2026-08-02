@@ -2,13 +2,13 @@ const frases=[
 
 "Ana, você é minha saudade.",
 
-"Todos os dias sinto a falta da sua ausência.",
+"Sinto falta de você nos meus dias.",
 
-"Meus pensamentos não te esquecem.",
+"Sou completamente apaixonada por você.",
 
 "Estou te esperando...",
 
-"Por favor, volta."
+"Por favor, volte o quanto antes."
 
 ];
 
