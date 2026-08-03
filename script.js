@@ -6,9 +6,7 @@ const frases=[
 
 "Sou completamente apaixonada por você.",
 
-"Estou te esperando...",
-
-"Por favor, volte o quanto antes."
+"Estou te esperando."
 
 ];
 
