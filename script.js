@@ -1,6 +1,4 @@
-const frases=[
-"Precisa ser você...",
-    
+const frases=[  
 "Estou te esperando."
 
 ];
