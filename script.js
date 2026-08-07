@@ -1,5 +1,7 @@
 const frases=[  
-"Estou te esperando."
+"'Até que a escuridão nos reivindique...'",
+    
+"Estarei te esperando."
 
 ];
 
